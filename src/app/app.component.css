@@ -11,7 +11,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 	span {
-		display: block;
+		display: absolute;
 		transform: rotate(90deg);
 		margin-top: 0.25em;
 	}
