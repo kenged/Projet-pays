@@ -1,0 +1,22 @@
+.text-box{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+	font-size: 2vw;
+	font-weight: 90;
+	margin-top: 1em;
+	text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+	span {
+		display: block;
+		transform: rotate(90deg);
+		margin-top: 0.25em;
+	}
+.table{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

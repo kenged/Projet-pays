@@ -1,0 +1,24 @@
+<table class="table" datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Pays</th>
+            <th>Capital</th>
+            <th>Continent</th>
+            <th>Population</th>
+            <th>Drapeaux</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let countrie of countries; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ countrie.name }}</td>
+            <td>{{ countrie.capital }}</td>
+            <td>{{ countrie.region }}</td>
+            <td>{{ countrie.population | number }}</td>
+            <td>
+                <img class="flag" src="{{ countrie.flag }}" alt="flag">
+            </td>
+        </tr>
+    </tbody>
+</table>

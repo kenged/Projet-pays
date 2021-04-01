@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(202, 138, 138);
+}
+.flag {
+    height: 50px;
+    width: 100px;
+}
+
+.table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
